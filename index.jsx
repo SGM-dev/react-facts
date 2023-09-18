@@ -11,10 +11,9 @@ function Header() {
   );
 }
 
-function Page() {
+function MainContent() {
   return (
-    <div>
-      <Header />
+    <>
       <h1>Reasons I'm excited to learn React</h1>
       <ol>
         <li>
@@ -22,6 +21,15 @@ function Page() {
         </li>
         <li>I'm more likely to get a job as a developer if I know React</li>
       </ol>
+    </>
+  );
+}
+
+function Page() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
       <footer>
         <small>© 2023 SGM development. All rights reserved.</small>
       </footer>
