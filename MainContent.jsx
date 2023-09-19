@@ -1,4 +1,4 @@
-function MainContent() {
+export default function MainContent() {
     return (
       <>
         <h1>Reasons I'm excited to learn React</h1>
@@ -11,5 +11,3 @@ function MainContent() {
       </>
     );
   }
-
-  export default MainContent
