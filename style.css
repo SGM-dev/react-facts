@@ -4,4 +4,35 @@
 
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
+  width: 550px;
+  margin: 0 auto;
+  background: #2c2c2c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 1.5em;
+  gap: 0.5em;
+  height: 90px;
+  background: #21222a;
+}
+
+.nav--icon {
+  width: 30px;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #61dafb;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.nav--title {
+  color: #deebf8;
+  font-size: 1rem;
+  font-weight: 600;
 }
