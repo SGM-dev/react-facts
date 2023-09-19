@@ -5,7 +5,7 @@ import Header from "/Header.jsx";
 import MainContent from "/MainContent.jsx";
 import Footer from "/Footer.jsx";
 
-function Page() {
+function App() {
   return (
     <div>
       <Header />
@@ -17,4 +17,4 @@ function Page() {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Page />);
+root.render(<App />);
